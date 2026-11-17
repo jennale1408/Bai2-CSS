@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Sản Phẩm Hàng Ngang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+
+        .product-list {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+        }
+
+
+        .product-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .product-title {
+            font-size: 16px;
+            margin: 10px 0 5px 0;
+            color: #222;
+        }
+
+        .product-price {
+            color: #e65100;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn-buy {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .btn-buy:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Sản Phẩm Nổi Bật</h2>
+
+
+    <div class="product-list">
+
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Sản phẩm 1">
+            <h3 class="product-title">Sản phẩm A</h3>
+            <p class="product-price">150.000đ</p>
+            <button class="btn-buy">Mua ngay</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Sản phẩm 2">
+            <h3 class="product-title">Sản phẩm B</h3>
+            <p class="product-price">200.000đ</p>
+            <button class="btn-buy">Mua ngay</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Sản phẩm 3">
+            <h3 class="product-title">Sản phẩm C</h3>
+            <p class="product-price">180.000đ</p>
+            <button class="btn-buy">Mua ngay</button>
+        </div>
+
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Sản phẩm 4">
+            <h3 class="product-title">Sản phẩm D</h3>
+            <p class="product-price">250.000đ</p>
+            <button class="btn-buy">Mua ngay</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
